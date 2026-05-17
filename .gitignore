@@ -1,0 +1,27 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyTorch and Models
+outputs/*
+!outputs/checkpoints/
+outputs/checkpoints/*
+!outputs/checkpoints/best_model.pth
+*.pt
+*.onnx
+
+# Data (Ignore large datasets to prevent pushing them to GitHub)
+data/
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
