@@ -25,3 +25,7 @@ data/
 .idea/
 .DS_Store
 *.swp
+
+# Office temp lock files
+~$*.pptx
+~$*.docx
